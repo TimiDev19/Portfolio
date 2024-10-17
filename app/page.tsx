@@ -601,7 +601,7 @@ const data = [
 
 export default function Home() {
   return (
-    <div className="">
+    <div className=" max-w-screen overflow-x-hidden">
       <div className="h-[60vh] w-full flex flex-col items-center justify-center pt-[100px] px-3">
         <BackgroundBeamsWithCollision>
           <div>
