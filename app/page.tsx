@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { BackgroundBeamsWithCollision } from "./components/BackgroundBeamsWithCollision";
 import Link from "next/link";
-import { BsGithub, BsMailbox } from "react-icons/bs";
+import { BsMailbox } from "react-icons/bs";
 import { GrDocument } from "react-icons/gr";
 import { motion } from "framer-motion";
 import me from '@/app/assets/timi.jpg'
@@ -22,7 +22,6 @@ import sugma3 from '@/app/assets/sugma3.png'
 import sugma4 from '@/app/assets/sugma4.png'
 import { Timeline } from "./components/Timeline";
 import { CardStack } from "./components/CardStack";
-import { AnimatedTooltip } from "./components/AnimatedTooltip";
 import reactLogo from '@/app/assets/React.webp'
 import tailwindLogo from '@/app/assets/tailwind.png'
 import reduxLogo from '@/app/assets/redux-logo-vector.svg'
@@ -728,7 +727,7 @@ export default function Home() {
 }
 
 // Small utility to highlight the content of specific section of a testimonial content
-export const Highlight = ({
+const Highlight = ({
   children,
   className,
 }: {
