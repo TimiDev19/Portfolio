@@ -37,12 +37,12 @@ const Sidebar = () => {
 
                 <div onClick={() => setIsDropdown(!isDropdown)} className=' md:hidden'>
                     {
-                        isDropdown ? (<CloseOutlinedIcon className=' cursor-pointer text-[#fb4566]' />) : (<MenuOutlinedIcon className=' cursor-pointer text-[#fb4566]' />)
+                        isDropdown ? (<CloseOutlinedIcon className=' cursor-pointer text-white hover:text-[#fb4566]' />) : (<MenuOutlinedIcon className=' cursor-pointer text-white hover:text-[#fb4566]' />)
                     }
                 </div>
             </div>
             {
-                isDropdown && <div className=' bg-white border-b-[#023047] border-b'>
+                isDropdown && <div className=' bg-[#0e090d] border-b-[#fb4566] border-b'>
                     <ul >
                         <a href='/home' className=' cursor-pointer'><li className=' py-1 mb-1 px-4 hover:text-[#fb4566] text-white duration-500 flex items-center font-bold cursor-pointer tracking-[0.1em]'>Home</li></a>
                         <a href='/about' className=' cursor-pointer'><li className=' py-1 mb-1 px-4 hover:text-[#fb4566] text-white duration-500 flex items-center font-bold cursor-pointer tracking-[0.1em]'>About</li></a>
