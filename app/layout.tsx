@@ -2,7 +2,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Sidebar from "./components/Sidebar";
-
+import Head from 'next/head';
 import { useState, useEffect } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import SplashScreen from "./components/Splashscreen";
@@ -48,6 +48,32 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Head>
+        {/* Default SEO Settings */}
+        <title>Oluwatimilehin Rotimi</title>
+        <meta name="description" content="Oluwatimilehin Rotimi ePortfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content="Oluwatimilehin Rotimi" />
+        <meta property="og:description" content="Oluwatimilehin Rotimi ePortfolio" />
+        {/* <meta property="og:image" content="/" />
+        <meta property="og:url" content="https://example.com" />
+        <meta property="og:type" content="website" /> */}
+
+        {/* Twitter Card Meta Tags */}
+        {/* <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@username" />
+        <meta name="twitter:title" content="My Next.js App" />
+        <meta name="twitter:description" content="This is a sample Next.js app with SEO best practices." />
+        <meta name="twitter:image" content="https://example.com/default-image.jpg" /> */}
+
+        {/* Favicon */}
+        {/* <link rel="icon" href="/favicon.ico" /> */}
+
+        {/* Canonical URL */}
+        {/* <link rel="canonical" href="https://example.com" /> */}
+      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth bg-[#0e090d]`}
       >
