@@ -206,21 +206,21 @@ const techstack = [
 
 const projects = [
     {
-      title: "E-commerce Projects",
-      description:
-        "View a catalogue of all the e-commerce projects I have built. E-commerce websites are websites that enable users to view and purchase products.",
-      link: "https://stripe.com",
+        title: "E-commerce Projects",
+        description:
+            "View a catalogue of all the e-commerce projects I have built. E-commerce websites are websites that enable users to view and purchase products.",
+        link: "/projetcs/#ecommerce",
     },
     {
-      title: "Company Portfolio Projects",
-      description:
-      "View a catalogue of all the company portfolio projects I have built. Company portfolio websites are websites that serve as a digital representation of a company giving visitors a little insight into the company.",
-      link: "https://netflix.com",
+        title: "Company Portfolio Projects",
+        description:
+            "View a catalogue of all the company portfolio projects I have built. Company portfolio websites are websites that serve as a digital representation of a company giving visitors a little insight into the company.",
+        link: "/projects/#portfolio",
     },
     {
-      title: "Management System Projects",
-      description:
-        "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, taska or events.",
-      link: "https://google.com",
+        title: "Management System Projects",
+        description:
+            "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, taska or events.",
+        link: "/projects/#management",
     },
-  ];
+];
