@@ -105,14 +105,14 @@ const page = () => {
                 <div className=' w-[65%] m-auto lg:w-[40%] flex items-center justify-between'>
                     <div className=' w-fit'>
                         <div className=' w-full flex items-center justify-center'>
-                            <Link href={"/about"} className='text-white m-auto text-center text-sm lg:text-2xl mb-6 duration-500 hover:text-[#fb4566]'><LinkedInIcon /> LinkedIn</Link>
+                            <Link target='blank' href={"https://www.linkedin.com/in/oluwatimilehin-rotimi-96b248256"} className='text-white m-auto text-center text-sm lg:text-2xl mb-6 duration-500 hover:text-[#fb4566]'><LinkedInIcon /> LinkedIn</Link>
                         </div>
 
                     </div>
                     <div className=' w-fit'>
 
                         <div className=' w-full flex items-center justify-center'>
-                            <Link href={"/about"} className='text-white m-auto text-center text-sm lg:text-2xl mb-6 duration-500 hover:text-[#fb4566]'><FileDownloadOutlinedIcon /> Download CV</Link>
+                            <Link target='blank' href={"https://docs.google.com/document/d/1OGuBjtvFO34optYxNDb8zc2robnZaxCqcZjt3Qbgz64/edit?usp=drive_link"} className='text-white m-auto text-center text-sm lg:text-2xl mb-6 duration-500 hover:text-[#fb4566]'><FileDownloadOutlinedIcon /> Download CV</Link>
                         </div>
                     </div>
                 </div>
