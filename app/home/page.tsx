@@ -13,6 +13,7 @@ import ArrowOutwardOutlinedIcon from '@mui/icons-material/ArrowOutwardOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { HoverEffect } from '../components/HoverEffect';
+import type { Metadata } from "next";
 
 const words = `I am a dedicated front-end developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like NextJs, ReactJs, TypeScript, Redux, TailwindCSS and more.
 `;
@@ -24,6 +25,12 @@ const inter = Inter({
     weight: ['400', '500', '600', '700'], // You can include the weights you need
     variable: '--font-inter', // Define a custom variable for Tailwind or inline CSS usage
 });
+
+export const metadata: Metadata = {
+    title: "Oluwatimilehin Rotimi | Frontend Developer",
+    description: "Oluwatimilehin Rotimi is a frontend developer with a unique talent of creating innovative, aesthetic solutions in a short amount of time.",
+    keywords: 'Oluwatimilehin Rotimi, Rotimi Oluwatimilehin, rotimi oluwatimilehin, oluwatimilehin rotimi, oluwatimilehin portfolio, oluwatimilehin rotimi eportfolio'
+};
 
 const page = () => {
     const [copied, setCopied] = useState(false);
@@ -133,21 +140,21 @@ export default page
 
 const projects = [
     {
-      title: "E-commerce Projects",
-      description:
-        "View a catalogue of all the e-commerce projects I have built. E-commerce websites are websites that enable users to view and purchase products.",
-      link: "/projects/#ecommerce",
+        title: "E-commerce Projects",
+        description:
+            "View a catalogue of all the e-commerce projects I have built. E-commerce websites are websites that enable users to view and purchase products.",
+        link: "/projects/#ecommerce",
     },
     {
-      title: "Company Portfolio Projects",
-      description:
-      "View a catalogue of all the company portfolio projects I have built. Company portfolio websites are websites that serve as a digital representation of a company giving visitors a little insight into the company.",
-      link: "/projects/#portfolio",
+        title: "Company Portfolio Projects",
+        description:
+            "View a catalogue of all the company portfolio projects I have built. Company portfolio websites are websites that serve as a digital representation of a company giving visitors a little insight into the company.",
+        link: "/projects/#portfolio",
     },
     {
-      title: "Management System Projects",
-      description:
-        "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, taska or events.",
-      link: "/projects/#management",
+        title: "Management System Projects",
+        description:
+            "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, taska or events.",
+        link: "/projects/#management",
     },
-  ];
+];
