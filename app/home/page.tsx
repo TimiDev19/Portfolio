@@ -13,7 +13,7 @@ import ArrowOutwardOutlinedIcon from '@mui/icons-material/ArrowOutwardOutlined';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { HoverEffect } from '../components/HoverEffect';
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 
 const words = `I am a dedicated front-end developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like NextJs, ReactJs, TypeScript, Redux, TailwindCSS and more.
 `;
@@ -26,11 +26,11 @@ const inter = Inter({
     variable: '--font-inter', // Define a custom variable for Tailwind or inline CSS usage
 });
 
-export const metadata: Metadata = {
-    title: "Oluwatimilehin Rotimi | Frontend Developer",
-    description: "Oluwatimilehin Rotimi is a frontend developer with a unique talent of creating innovative, aesthetic solutions in a short amount of time.",
-    keywords: 'Oluwatimilehin Rotimi, Rotimi Oluwatimilehin, rotimi oluwatimilehin, oluwatimilehin rotimi, oluwatimilehin portfolio, oluwatimilehin rotimi eportfolio'
-};
+// export const metadata: Metadata = {
+//     title: "Oluwatimilehin Rotimi | Frontend Developer",
+//     description: "Oluwatimilehin Rotimi is a frontend developer with a unique talent of creating innovative, aesthetic solutions in a short amount of time.",
+//     keywords: 'Oluwatimilehin Rotimi, Rotimi Oluwatimilehin, rotimi oluwatimilehin, oluwatimilehin rotimi, oluwatimilehin portfolio, oluwatimilehin rotimi eportfolio'
+// };
 
 const page = () => {
     const [copied, setCopied] = useState(false);
