@@ -154,6 +154,38 @@ export default function RootLayout({
         <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
       </Head>
       <html lang="en">
+        <head>
+          <title>Oluwatimilehin Rotimi</title>
+          <meta
+            name="description"
+            content="Oluwatimilehin Rotimi is a frontend developer with a unique talent for creating innovative, aesthetic solutions in a short amount of time."
+          />
+          <meta
+            name="keywords"
+            content="Oluwatimilehin, Rotimi, frontend developer, portfolio"
+          />
+
+          {/* Open Graph Meta Tags */}
+          <meta
+            property="og:title"
+            content="Oluwatimilehin Rotimi"
+          />
+          <meta
+            property="og:description"
+            content="Work with Oluwatimilehin Rotimi, a trusted frontend developer with an obsession for perfection and functionality."
+          />
+          <meta
+            property="og:image"
+            content="https://oluwatimilehin-eportfolio.vercel.app/favicon.ico" // Absolute URL
+          />
+          <meta
+            property="og:url"
+            content="https://oluwatimilehin-eportfolio.vercel.app"
+          />
+
+          {/* Favicon */}
+          <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
+        </head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth bg-[#0e090d]`}
         >
