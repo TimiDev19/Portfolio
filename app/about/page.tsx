@@ -209,7 +209,7 @@ const projects = [
         title: "E-commerce Projects",
         description:
             "View a catalogue of all the e-commerce projects I have built. E-commerce websites are websites that enable users to view and purchase products.",
-        link: "/projetcs/#ecommerce",
+        link: "/projects/#ecommerce",
     },
     {
         title: "Company Portfolio Projects",
