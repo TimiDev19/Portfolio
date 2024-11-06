@@ -2,6 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 import techstack from '@/app/helpers/helper'
 import Link from 'next/link'
+import GitHubIcon from '@mui/icons-material/GitHub';
+import OpenInNewOutlinedIcon from '@mui/icons-material/OpenInNewOutlined';
 
 const page = () => {
     const ecommerce_projects = techstack.projects.filter((project) => {
@@ -31,7 +33,8 @@ const page = () => {
                                     <p className=" font-light">{project.description}</p>
                                     <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
                                     <div className=" w-full flex items-center justify-center mt-5">
-                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-[#fb4566] border-[#fb4566] border-2 text-white hover:text-[#fb4566] hover:border-2 hover:border-[#fb4566] hover:bg-transparent duration-500 ">Live Site</Link>
+                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
+                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
                                     </div>
                                 </div>
                             </div>
@@ -55,7 +58,8 @@ const page = () => {
                                     <p className=" font-light">{project.description}</p>
                                     <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
                                     <div className=" w-full flex items-center justify-center mt-5">
-                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-[#fb4566] border-[#fb4566] border-2 text-white hover:text-[#fb4566] hover:border-2 hover:border-[#fb4566] hover:bg-transparent duration-500 ">Live Site</Link>
+                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
+                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +83,8 @@ const page = () => {
                                     <p className=" font-light">{project.description}</p>
                                     <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
                                     <div className=" w-full flex items-center justify-center mt-5">
-                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-[#fb4566] border-[#fb4566] border-2 text-white hover:text-[#fb4566] hover:border-2 hover:border-[#fb4566] hover:bg-transparent duration-500 ">Live Site</Link>
+                                        <Link target="blank" href={project.liveLink} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><OpenInNewOutlinedIcon className="mr-3" /> Live Site</Link>
+                                        <Link target="blank" href={project.github} className=" mx-3 px-6 py-2 rounded-md hover:bg-[#fb4566] border-[#fb4566] border-2 text-[#fb4566] hover:text-[#fff] hover:border-2 hover:border-[#fb4566] bg-transparent duration-500 font-semibold flex items-center justify-center"><GitHubIcon className="mr-3" /> GitHub</Link>
                                     </div>
                                 </div>
                             </div>

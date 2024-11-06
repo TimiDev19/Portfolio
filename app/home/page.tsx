@@ -81,7 +81,7 @@ const page = () => {
 
                 <FadeInFromBottom>
                     <div className=' w-full flex items-center justify-center mb-[40px]'>
-                        <Link href={"/about"} className='text-white m-auto text-center text-2xl mb-6 duration-500 hover:text-[#fb4566]'><ArrowOutwardOutlinedIcon /> Learn More</Link>
+                        <Link href={"/about"} className='text-white m-auto text-center text-2xl mb-6 duration-500 hover:text-[#fb4566]'><ArrowOutwardOutlinedIcon /> Read More</Link>
                     </div>
                 </FadeInFromBottom>
 

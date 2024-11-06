@@ -111,6 +111,7 @@ const techstack = {
             title: "Kanban Task Manager",
             description: "This is a fully functional and responsive task management web application featuring a Kanban board. Users can easily add, edit and delete tasks and it also features a dark and light mode option",
             liveLink: "https://timi-kanban.vercel.app/",
+            github: "https://github.com/TimiDev19/kanban",
             tech: "React, TypeScript, TailwindCSS, Redux",
             category: "management"
         },
@@ -119,6 +120,7 @@ const techstack = {
             title: "Sugma Airways Website",
             description: "This is a fully funtional and responsive ecommerce web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
             liveLink: "https://sugma-airways.vercel.app/",
+            github: "https://github.com/TimiDev19/SugmaAirways",
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"
         },
@@ -127,6 +129,7 @@ const techstack = {
             title: "Invoice Manager",
             description: "This is a fully functional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices and the addition of a dark and light mode feature all adds to the outstanding user experience.",
             liveLink: "https://timi-invoice-manager.vercel.app/",
+            github: "https://github.com/TimiDev19/invoice-manager",
             tech: "React, Firebase, TailwindCSS, Redux",
             category: "management"
         },
@@ -135,6 +138,7 @@ const techstack = {
             title: "JMT Fashion Website",
             description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
             liveLink: "https://ecommerce-oluwatimilehin.vercel.app/",
+            github: "https://github.com/TimiDev19/ecommerce",
             tech: "React, TailwindCSS",
             category: "ecommerce"
         },
