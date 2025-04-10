@@ -15,7 +15,7 @@ import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
 import { HoverEffect } from '../components/HoverEffect';
 // import type { Metadata } from "next";
 
-const words = `I am a dedicated front-end developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like NextJs, ReactJs, TypeScript, Redux, TailwindCSS and more.
+const words = `I am a dedicated web developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like NextJs, ReactJs, TypeScript, ExpressJs, NodeJs, TailwindCSS and more.
 `;
 
 const words2 = `My passion for programming and attention to detail allows me to craft intuitive user interfaces that enhance the user experience. In addition to my technical skills, I am also a strong communicator and collaborator, able to work effectively with both technical and non-technical team members. Whether working independently or as part of a team, I am committed to delivering high-quality work that meets and exceeds project requirements.`

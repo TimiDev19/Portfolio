@@ -17,7 +17,7 @@ const Sidebar = () => {
     const [isDropdown, setIsDropdown] = useState(false)
 
     return (
-        <div className={`${inter.className} z-[300] fixed w-full scroll-smooth font-bold uppercase`}>
+        <div className={`${inter.className} z-[300] fixed w-full scroll-smooth font-bold uppercase backdrop-blur-sm`}>
             <div className={` bg-transparent  h-[100px] p-2 flex w-full items-center justify-between`}>
                 <div className=' flex items-center justify-center h-full'>
 

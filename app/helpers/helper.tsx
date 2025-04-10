@@ -16,6 +16,7 @@ import Firebase from '../assets/firebase.webp'
 import eCommerce from '../assets/eCommerceProject.png'
 import sugma from '../assets/sugma.png'
 import expressJs from '../assets/express.png'
+import apexium from "@/app/assets/apexium.png"
 
 const techstack = {
     "languages": [
@@ -104,6 +105,11 @@ const techstack = {
             name: "Vercel",
             about: "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration."
         },
+        {
+            image: vercelLogo,
+            name: "Vercel",
+            about: "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration."
+        },
     ],
     "projects":[
         {
@@ -118,9 +124,18 @@ const techstack = {
         {
             image: sugma,
             title: "Sugma Airways Website",
-            description: "This is a fully funtional and responsive ecommerce web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
+            description: "This is a fully funtional and responsive web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
             liveLink: "https://sugma-airways.vercel.app/",
             github: "https://github.com/TimiDev19/SugmaAirways",
+            tech: "NextJs, TailwindCSS, Framer Motion",
+            category: "portfolio"
+        },
+        {
+            image: apexium,
+            title: "Apexium Agency Website",
+            description: "This is a fully funtional and responsive website for a web3 agency, clearly stating various things about them mixing aesthetics with efficiency.",
+            liveLink: "https://apexiumagency.com/",
+            github: "https://github.com/TimiDev19/apexium",
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"
         },

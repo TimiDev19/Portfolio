@@ -174,6 +174,10 @@ const techstack = [
         description: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. APIs."
     },
     {
+        title: "NodeJs",
+        description: "Node.js is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts."
+    },
+    {
         title: "Firebase",
         description: "Firebase is a set of backend cloud computing services and application development platforms provided by Google."
     },
@@ -190,10 +194,13 @@ const techstack = [
         description: "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration."
     },
     {
+        title: "Netlify",
+        description: "Netlify Connect is a data unification layer that gives web teams the freedom to create world-class websites, online stores, and applications with data from anywhere around the world."
+    },
+    {
         title: "Redux",
         description: "Redux helps you write applications that behave consistently, run in different environments and are easy to test."
     },
-
     {
         title: "Github",
         description: "Git is used to store the source code for a project and track the complete history of all changes to that code."
@@ -201,6 +208,14 @@ const techstack = [
     {
         title: "Bitbucket",
         description: "Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira."
+    },
+    {
+        title: "Stripe",
+        description: "Stripe powers online and in person payement processing and financial solutions for buisnesses of all sizes."
+    },
+    {
+        title: "Swagger UI",
+        description: "Swagger UI allows development team to visualize and interact with the API's resources without having any of the implementation logic in place."
     },
 ]
 
