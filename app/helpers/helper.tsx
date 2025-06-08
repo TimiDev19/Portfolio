@@ -17,6 +17,8 @@ import eCommerce from '../assets/eCommerceProject.png'
 import sugma from '../assets/sugma.png'
 import expressJs from '../assets/express.png'
 import apexium from "@/app/assets/apexium.png"
+import teekay from "@/app/assets/teekay.png"
+import skinny from "@/app/assets/skinny.png"
 
 const techstack = {
     "languages": [
@@ -149,6 +151,15 @@ const techstack = {
             category: "management"
         },
         {
+            image: teekay,
+            title: "Teekay Bags Store",
+            description: "This is a fully funtional and responsive ecommerce web application that allows users shop for bags from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The website features a fully functional online payment system using Stripe payment.",
+            liveLink: "https://teekay-stores.vercel.app/",
+            github: "https://github.com/TimiDev19/teekay-stores",
+            tech: "NextJS, TailwindCSS, Stripe, ExpressJs",
+            category: "ecommerce"
+        },
+        {
             image: eCommerce,
             title: "JMT Fashion Website",
             description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
@@ -156,6 +167,15 @@ const techstack = {
             github: "https://github.com/TimiDev19/ecommerce",
             tech: "React, TailwindCSS",
             category: "ecommerce"
+        },
+        {
+            image: skinny,
+            title: "$SKINNY",
+            description: "This is a fully funtional and responsive website for a web3 memecoin project, clearly stating various things about them mixing aesthetics with efficiency.",
+            liveLink: "https://skinnynigga.netlify.app/",
+            github: "https://github.com/TimiDev19/SKINNY",
+            tech: "NextJs, TailwindCSS, Framer Motion",
+            category: "portfolio"
         },
     ]
 }
