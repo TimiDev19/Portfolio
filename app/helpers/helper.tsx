@@ -18,7 +18,8 @@ import sugma from '../assets/sugma.png'
 import expressJs from '../assets/express.png'
 import apexium from "@/app/assets/apexium.png"
 import teekay from "@/app/assets/teekay.png"
-import skinny from "@/app/assets/skinny.png"
+import slvr from "@/app/assets/silver-surfer.png"
+import serenity from "@/app/assets/serenity-resort.png"
 
 const techstack = {
     "languages": [
@@ -124,14 +125,23 @@ const techstack = {
             category: "management"
         },
         {
-            image: sugma,
-            title: "Sugma Airways Website",
-            description: "This is a fully funtional and responsive web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
-            liveLink: "https://sugma-airways.vercel.app/",
-            github: "https://github.com/TimiDev19/SugmaAirways",
+            image: serenity,
+            title: "Serenity resort",
+            description: "This is a fully funtional and responsive website for a resort allowing users to view different rooms available and also book rooms for themselves. The website also features a testimonial section allowing users to read testimonials of last customers but also add their own testimonial.",
+            liveLink: "https://serenity-resort.netlify.app/",
+            github: "https://github.com/TimiDev19/SKINNY",
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"
         },
+        // {
+        //     image: sugma,
+        //     title: "Sugma Airways Website",
+        //     description: "This is a fully funtional and responsive web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
+        //     liveLink: "https://sugma-airways.vercel.app/",
+        //     github: "https://github.com/TimiDev19/SugmaAirways",
+        //     tech: "NextJs, TailwindCSS, Framer Motion",
+        //     category: "portfolio"
+        // },
         {
             image: apexium,
             title: "Apexium Agency Website",
@@ -159,20 +169,20 @@ const techstack = {
             tech: "NextJS, TailwindCSS, Stripe, ExpressJs",
             category: "ecommerce"
         },
+        // {
+        //     image: eCommerce,
+        //     title: "JMT Fashion Website",
+        //     description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
+        //     liveLink: "https://ecommerce-oluwatimilehin.vercel.app/",
+        //     github: "https://github.com/TimiDev19/ecommerce",
+        //     tech: "React, TailwindCSS",
+        //     category: "ecommerce"
+        // },
         {
-            image: eCommerce,
-            title: "JMT Fashion Website",
-            description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
-            liveLink: "https://ecommerce-oluwatimilehin.vercel.app/",
-            github: "https://github.com/TimiDev19/ecommerce",
-            tech: "React, TailwindCSS",
-            category: "ecommerce"
-        },
-        {
-            image: skinny,
-            title: "$SKINNY",
-            description: "This is a fully funtional and responsive website for a web3 memecoin project, clearly stating various things about them mixing aesthetics with efficiency.",
-            liveLink: "https://skinnynigga.netlify.app/",
+            image: slvr,
+            title: "$SLVR",
+            description: "This is a fully funtional and responsive website for a web3 memecoin project, clearly stating various things about the project. The website features a live chart from DexScreener to ease the trading experiance and also allow users buy the token directly.",
+            liveLink: "https://silversurfercto.netlify.app/",
             github: "https://github.com/TimiDev19/SKINNY",
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"

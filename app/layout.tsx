@@ -6,6 +6,13 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import SplashScreen from "./components/Splashscreen";
+import { Inter } from 'next/font/google'
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['100', '200', '400', '700'],
+  variable: '--font-inter',
+})
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -108,7 +115,7 @@ export default function RootLayout({
           <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
         </head>
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased scroll-smooth bg-[#0e090d]`}
+          className={`${geistSans.variable} ${geistMono.variable} ${inter.className} antialiased scroll-smooth bg-[#0e090d]`}
         >
           <SplashScreen loading={loading} targetPage={targetPage} />
           <Sidebar />
