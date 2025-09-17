@@ -145,7 +145,7 @@ const techstack = {
         {
             image: apexium,
             title: "Apexium Agency Website",
-            description: "This is a fully funtional and responsive website for a web3 agency, clearly stating various things about them mixing aesthetics with efficiency.",
+            description: "This is a fully funtional and responsive website for the world's FIRST web3 HR service, clearly stating various things about them mixing aesthetics with efficiency.",
             liveLink: "https://apexiumagency.com/",
             github: "https://github.com/TimiDev19/apexium",
             tech: "NextJs, TailwindCSS, Framer Motion",
