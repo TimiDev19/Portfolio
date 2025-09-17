@@ -154,7 +154,7 @@ const projects = [
     {
         title: "Management System Projects",
         description:
-            "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, taska or events.",
+            "View a catalogue of all the management system projects I have built. Management system projects are projects that are used for management of several resources such as staff, tasks or events.",
         link: "/projects/#management",
     },
 ];
