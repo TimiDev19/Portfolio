@@ -45,7 +45,7 @@ const page = () => {
                         <h1 className=' text-white font-extrabold text-3xl lg:text-6xl mb-3 lg:mb-[70px]'>I craft digital solutions combining creativity and efficiency</h1>
                         <p className=' text-white lg:text-4xl lg:w-[80%] mb-[30px]'>
                             My creative journey started in 2020 when I decided to learn not just learn to code as a skill but to make it my entire career.
-                            I discovered a burining desire to create aesthetically pleasing websites that create ground breaking solutions.
+                            I discovered a burning desire to create aesthetically pleasing websites that create ground breaking solutions.
                             Since then I've never looked back and as hard as it is to beleive my laptop is basically my child, following me everywhere because I find coding very relaxing.
                         </p>
 

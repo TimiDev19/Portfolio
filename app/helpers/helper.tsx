@@ -20,6 +20,7 @@ import apexium from "@/app/assets/apexium.png"
 import teekay from "@/app/assets/teekay.png"
 import slvr from "@/app/assets/silver-surfer.png"
 import serenity from "@/app/assets/serenity-resort.png"
+import zach from "@/app/assets/zach.png"
 
 const techstack = {
     "languages": [
@@ -144,9 +145,18 @@ const techstack = {
         // },
         {
             image: apexium,
-            title: "Apexium Agency Website",
+            title: "Apexium Agency",
             description: "This is a fully funtional and responsive website for the world's FIRST web3 HR service, clearly stating various things about them mixing aesthetics with efficiency.",
             liveLink: "https://apexiumagency.com/",
+            github: "https://github.com/TimiDev19/apexium",
+            tech: "NextJs, TailwindCSS, Framer Motion",
+            category: "portfolio"
+        },
+        {
+            image: zach,
+            title: "Zach Technologies Industries",
+            description: "This is a fully funtional and responsive website for Zach Tech Industries giving users an insight to the company and also showing the company in a good light to potential investors",
+            liveLink: "https://zachtechindustries.com",
             github: "https://github.com/TimiDev19/apexium",
             tech: "NextJs, TailwindCSS, Framer Motion",
             category: "portfolio"
