@@ -53,11 +53,11 @@ export default function RootLayout({
         <title>Oluwatimilehin Rotimi</title>
         <meta
           name="description"
-          content="Oluwatimilehin Rotimi is a frontend developer with a unique talent for creating innovative, aesthetic solutions in a short amount of time."
+          content="Oluwatimilehin Rotimi is a full-stack developer with a unique talent for creating innovative, aesthetic solutions in a short amount of time."
         />
         <meta
           name="keywords"
-          content="Oluwatimilehin, Rotimi, frontend developer, portfolio"
+          content="Oluwatimilehin, Rotimi, full-stack developer, portfolio"
         />
 
         {/* Open Graph Meta Tags */}
@@ -67,7 +67,7 @@ export default function RootLayout({
         />
         <meta
           property="og:description"
-          content="Work with Oluwatimilehin Rotimi, a trusted frontend developer with an obsession for perfection and functionality."
+          content="Work with Oluwatimilehin Rotimi, a trusted full-stack developer with an obsession for perfection and functionality."
         />
         <meta
           property="og:image"
@@ -86,11 +86,11 @@ export default function RootLayout({
           <title>Oluwatimilehin Rotimi</title>
           <meta
             name="description"
-            content="Oluwatimilehin Rotimi is a frontend developer with a unique talent for creating innovative, aesthetic solutions in a short amount of time."
+            content="Oluwatimilehin Rotimi is a full-stack developer with a unique talent for creating innovative, aesthetic solutions in a short amount of time."
           />
           <meta
             name="keywords"
-            content="Oluwatimilehin, Rotimi, frontend developer, portfolio"
+            content="Oluwatimilehin, Rotimi, full-stack developer, portfolio"
           />
 
           {/* Open Graph Meta Tags */}
@@ -100,7 +100,7 @@ export default function RootLayout({
           />
           <meta
             property="og:description"
-            content="Work with Oluwatimilehin Rotimi, a trusted frontend developer with an obsession for perfection and functionality."
+            content="Work with Oluwatimilehin Rotimi, a trusted full-stack developer with an obsession for perfection and functionality."
           />
           <meta
             property="og:image"
