@@ -50,7 +50,7 @@ const page = () => {
                         </p>
 
                         <div className=' w-full flex items-start justify-start'>
-                            <Link href={"/about"} className='text-[#fb4566] text-center text-2xl mb-6 duration-500 hover:text-white'><FileDownloadOutlinedIcon className=' mr-4' />Download CV</Link>
+                            <Link target="_blank" href={"https://docs.google.com/document/d/1OGuBjtvFO34optYxNDb8zc2robnZaxCqcZjt3Qbgz64/edit?usp=drive_link"} className='text-[#fb4566] text-center text-2xl mb-6 duration-500 hover:text-white'><FileDownloadOutlinedIcon className=' mr-4' />Download CV</Link>
                         </div>
                     </div>
                 </div>
