@@ -111,8 +111,8 @@ export default function RootLayout({
           />
 
           {/* Favicon */}
-          {/* <link rel="icon" type="image/jpeg" href="/favicon.ico" /> Updated path */}
-          <link
+          <link rel="icon" type="image/jpeg" href="/favicon.ico" />
+          {/* <link
             rel="apple-touch-icon"
             sizes="180x180"
             href="/apple-touch-icon.png"
@@ -129,7 +129,7 @@ export default function RootLayout({
             sizes="16x16"
             href="/favicon-16x16.png"
           />
-          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="manifest" href="/site.webmanifest" /> */}
         </head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} ${jakarta.className} antialiased scroll-smooth bg-[#0f1115]`}
