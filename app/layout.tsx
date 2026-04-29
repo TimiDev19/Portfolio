@@ -6,19 +6,19 @@ import Head from "next/head";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import SplashScreen from "./components/Splashscreen";
-import { Inter } from 'next/font/google'
-import { Plus_Jakarta_Sans } from 'next/font/google'
+import { Inter } from "next/font/google";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
 const jakarta = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-})
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 const inter = Inter({
-  subsets: ['latin'],
-  weight: ['100', '200', '400', '700'],
-  variable: '--font-inter',
-})
+  subsets: ["latin"],
+  weight: ["100", "200", "400", "700"],
+  variable: "--font-inter",
+});
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -65,12 +65,8 @@ export default function RootLayout({
           name="keywords"
           content="Oluwatimilehin, Rotimi, full-stack developer, portfolio"
         />
-
         {/* Open Graph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Oluwatimilehin Rotimi"
-        />
+        <meta property="og:title" content="Oluwatimilehin Rotimi" />
         <meta
           property="og:description"
           content="Work with Oluwatimilehin Rotimi, a trusted full-stack developer with an obsession for perfection and functionality."
@@ -83,9 +79,9 @@ export default function RootLayout({
           property="og:url"
           content="https://oluwatimilehin-eportfolio.vercel.app"
         />
-
         {/* Favicon */}
-        <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
+        <link rel="icon" type="image/jpeg" href="/favicon.ico" />{" "}
+        {/* Updated path */}
       </Head>
       <html lang="en">
         <head>
@@ -100,10 +96,7 @@ export default function RootLayout({
           />
 
           {/* Open Graph Meta Tags */}
-          <meta
-            property="og:title"
-            content="Oluwatimilehin Rotimi"
-          />
+          <meta property="og:title" content="Oluwatimilehin Rotimi" />
           <meta
             property="og:description"
             content="Work with Oluwatimilehin Rotimi, a trusted full-stack developer with an obsession for perfection and functionality."
@@ -118,7 +111,25 @@ export default function RootLayout({
           />
 
           {/* Favicon */}
-          <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
+          {/* <link rel="icon" type="image/jpeg" href="/favicon.ico" /> Updated path */}
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/site.webmanifest" />
         </head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} ${jakarta.className} antialiased scroll-smooth bg-[#0f1115]`}
@@ -127,7 +138,7 @@ export default function RootLayout({
           <Sidebar />
           <main> {children}</main>
         </body>
-      </html >
+      </html>
     </>
   );
 }
