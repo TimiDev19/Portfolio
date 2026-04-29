@@ -33,7 +33,7 @@ const SplashScreen: FC<SplashScreenProps> = ({ loading, targetPage }) => {
         <AnimatePresence>
             {loading && (
                 <motion.div
-                    className="fixed inset-0 bg-red-500 flex justify-center items-center z-[100]"
+                    className="fixed inset-0 bg-[#0a84ff] flex justify-center items-center z-[100]"
                     initial={{ y: "-100%", opacity: 0 }} // Start above the viewport with no opacity
                     animate={{ y: 0, opacity: 1 }} // Animate to the center
                     exit={{ y: "100%", opacity: 0 }} // Animate to fall below the viewport

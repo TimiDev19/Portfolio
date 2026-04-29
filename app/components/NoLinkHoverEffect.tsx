@@ -39,7 +39,7 @@ export const NoLinkHoverEffect = ({
                     <AnimatePresence>
                         {hoveredIndex === idx && (
                             <motion.span
-                                className="absolute inset-0 h-full w-full bg-[#fb4566] block  rounded-3xl"
+                                className="absolute inset-0 h-full w-full bg-[#0a84ff] block  rounded-3xl"
                                 layoutId="hoverBackground"
                                 initial={{ opacity: 0 }}
                                 animate={{

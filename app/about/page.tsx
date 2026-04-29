@@ -37,8 +37,8 @@ const page = () => {
             <div className='h-[100vh] w-[100vw] flex items-center justify-center px-2'>
                 <div className=' mb-[100px] h-[90%] w-full flex flex-col lg:flex-row items-center justify-center lg:justify-between py-[70px]'>
                     <div className=' w-full lg:w-[30%] h-full flex items-start justify-center'>
-                        <div className=' max-w-[70%] z-50 flex items-center justify-center p-2 border-2 border-[#fb4566] rounded-full mb-[30px]'>
-                            <FadeInFromBottom><Image src={me} alt="" className=' w-full rounded-full border-2 border-[#fb4566]' /></FadeInFromBottom>
+                        <div className=' max-w-[70%] z-50 flex items-center justify-center p-2 border-2 border-[#0a84ff] rounded-full mb-[30px]'>
+                            <FadeInFromBottom><Image src={me} alt="" className=' w-full rounded-full border-2 border-[#0a84ff]' /></FadeInFromBottom>
                         </div>
                     </div>
                     <div className=' lg:w-[65%] h-full text-left'>
@@ -50,7 +50,7 @@ const page = () => {
                         </p>
 
                         <div className=' w-full flex items-start justify-start'>
-                            <Link target="_blank" href={"https://docs.google.com/document/d/1OGuBjtvFO34optYxNDb8zc2robnZaxCqcZjt3Qbgz64/edit?usp=drive_link"} className='text-[#fb4566] text-center text-2xl mb-6 duration-500 hover:text-white'><FileDownloadOutlinedIcon className=' mr-4' />Download CV</Link>
+                            <Link target="_blank" href={"https://docs.google.com/document/d/1OGuBjtvFO34optYxNDb8zc2robnZaxCqcZjt3Qbgz64/edit?usp=drive_link"} className='text-[#0a84ff] text-center text-2xl mb-6 duration-500 hover:text-white'><FileDownloadOutlinedIcon className=' mr-4' />Download CV</Link>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ const page = () => {
                 <div className="flex items-center justify-center mb-4 w-[90%] mx-auto">
                     {/* <div className="border-t border-[#fb4566] flex-grow"></div> */}
                     <div className="px-4 text-3xl font-bold uppercase text-white">Skills 👨‍🔧</div>
-                    <div className="border-t border-[#fb4566] flex-grow"></div>
+                    <div className="border-t border-[#0a84ff] flex-grow"></div>
                 </div>
 
                 <NoLinkHoverEffect items={skills} />

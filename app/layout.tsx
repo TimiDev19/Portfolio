@@ -7,6 +7,12 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import SplashScreen from "./components/Splashscreen";
 import { Inter } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+})
 
 const inter = Inter({
   subsets: ['latin'],
@@ -115,9 +121,9 @@ export default function RootLayout({
           <link rel="icon" type="image/jpeg" href="/favicon.ico" /> {/* Updated path */}
         </head>
         <body
-          className={`${geistSans.variable} ${geistMono.variable} ${inter.className} antialiased scroll-smooth bg-[#0e090d]`}
+          className={`${geistSans.variable} ${geistMono.variable} ${jakarta.className} antialiased scroll-smooth bg-[#0f1115]`}
         >
-          <SplashScreen loading={loading} targetPage={targetPage} />
+          {/* <SplashScreen loading={loading} targetPage={targetPage} /> */}
           <Sidebar />
           <main> {children}</main>
         </body>

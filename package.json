@@ -11,6 +11,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@hugeicons/react": "^1.1.6",
     "@mui/icons-material": "^6.1.6",
     "@mui/material": "^6.1.6",
     "@react-three/drei": "^9.114.4",
@@ -21,6 +22,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
+    "hugeicons-react": "^0.4.0",
     "lucide-react": "^0.453.0",
     "next": "14.2.15",
     "react": "^18",

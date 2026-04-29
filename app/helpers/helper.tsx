@@ -117,13 +117,22 @@ const techstack = {
     ],
     "projects":[
         {
+            image: teekay,
+            title: "Teekay Bags Store",
+            description: "This is a fully funtional and responsive ecommerce web application that allows users shop for bags from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The website features a fully functional online payment system using Stripe payment.",
+            liveLink: "https://teekay-stores.vercel.app/",
+            github: "https://github.com/TimiDev19/teekay-stores",
+            tech: "NextJS, TailwindCSS, Stripe, ExpressJs",
+            category: "ecommerce"
+        },
+        {
             image: kanban,
             title: "Kanban Task Manager",
             description: "This is a fully functional and responsive task management web application featuring a Kanban board. Users can easily add, edit and delete tasks and it also features a dark and light mode option",
             liveLink: "https://timi-kanban.vercel.app/",
             github: "https://github.com/TimiDev19/kanban",
             tech: "React, TypeScript, TailwindCSS, Redux",
-            category: "management"
+            category: "management system"
         },
         {
             image: serenity,
@@ -132,7 +141,7 @@ const techstack = {
             liveLink: "https://serenity-resort.netlify.app/",
             github: "https://github.com/TimiDev19/SKINNY",
             tech: "NextJs, TailwindCSS, Framer Motion",
-            category: "portfolio"
+            category: "company portfolio"
         },
         // {
         //     image: sugma,
@@ -150,7 +159,7 @@ const techstack = {
             liveLink: "https://apexiumagency.com/",
             github: "https://github.com/TimiDev19/apexium",
             tech: "NextJs, TailwindCSS, Framer Motion",
-            category: "portfolio"
+            category: "company portfolio"
         },
         {
             image: zach,
@@ -159,26 +168,18 @@ const techstack = {
             liveLink: "https://zachtechindustries.com",
             github: "https://github.com/TimiDev19/apexium",
             tech: "NextJs, TailwindCSS, Framer Motion",
-            category: "portfolio"
+            category: "company portfolio"
         },
-        {
-            image: invoice,
-            title: "Invoice Manager",
-            description: "This is a fully functional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices and the addition of a dark and light mode feature all adds to the outstanding user experience.",
-            liveLink: "https://timi-invoice-manager.vercel.app/",
-            github: "https://github.com/TimiDev19/invoice-manager",
-            tech: "React, Firebase, TailwindCSS, Redux",
-            category: "management"
-        },
-        {
-            image: teekay,
-            title: "Teekay Bags Store",
-            description: "This is a fully funtional and responsive ecommerce web application that allows users shop for bags from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The website features a fully functional online payment system using Stripe payment.",
-            liveLink: "https://teekay-stores.vercel.app/",
-            github: "https://github.com/TimiDev19/teekay-stores",
-            tech: "NextJS, TailwindCSS, Stripe, ExpressJs",
-            category: "ecommerce"
-        },
+        // {
+        //     image: invoice,
+        //     title: "Invoice Manager",
+        //     description: "This is a fully functional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices and the addition of a dark and light mode feature all adds to the outstanding user experience.",
+        //     liveLink: "https://timi-invoice-manager.vercel.app/",
+        //     github: "https://github.com/TimiDev19/invoice-manager",
+        //     tech: "React, Firebase, TailwindCSS, Redux",
+        //     category: "management system"
+        // },
+        
         // {
         //     image: eCommerce,
         //     title: "JMT Fashion Website",
@@ -195,7 +196,7 @@ const techstack = {
             liveLink: "https://silversurfercto.netlify.app/",
             github: "https://github.com/TimiDev19/SKINNY",
             tech: "NextJs, TailwindCSS, Framer Motion",
-            category: "portfolio"
+            category: "company portfolio"
         },
     ]
 }
