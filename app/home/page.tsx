@@ -60,11 +60,11 @@ const page = () => {
   };
   return (
     <div
-      className={`${jakarta.className} scroll-smooth max-sm:min-h-[100vh] h-[100vh] max-w-[100vw] overflow-x-hidden text-[#e6e9ef] pt-[70px]`}
+      className={`${jakarta.className} scroll-smooth max-sm:min-h-[100vh] h-[100vh] max-w-[100vw] overflow-x-hidden text-[#e6e9ef]`}
     >
       <div
         id="home"
-        className="h-[100vh] w-[100vw] flex items-center justify-center"
+        className="h-[100vh] w-[100vw] flex items-center justify-center pt-[100px]"
       >
         <div className=" h-[90%] w-full lg:w-[90%] flex flex-col lg:flex-row items-center justify-center lg:justify-between py-6">
           <div className=" text-center lg:text-right mb-[30px]">
@@ -126,7 +126,7 @@ const page = () => {
       </div> */}
       <div
         id="about"
-        className=" w-full flex flex-col items-center justify-center pt-[70px]"
+        className=" w-full flex flex-col items-center justify-center pt-[100px]"
       >
         <div className="flex items-center justify-center mb-4 w-[90%] mx-auto">
           {/* <div className="border-t border-[#fb4566] flex-grow"></div> */}
@@ -236,7 +236,7 @@ const page = () => {
         </div>
       </div>
 
-      <div id="skills" className=' w-full pt-[80px]'>
+      <div id="skills" className=' w-full pt-[100px]'>
                 {/*  */}
 
                 <div className="flex items-center justify-center mb-4 w-[90%] mx-auto">
@@ -249,7 +249,7 @@ const page = () => {
 
             </div>
 
-      <div className=" w-full flex flex-col items-center justify-center pt-[70px]">
+      <div className=" w-full flex flex-col items-center justify-center pt-[100px]">
         <div id="projects" className=" w-full pt-[70px]">
           <div className="flex items-center justify-center mb-4 w-[90%] mx-auto">
             <div className="border-t border-[#0a84ff] flex-grow"></div>
