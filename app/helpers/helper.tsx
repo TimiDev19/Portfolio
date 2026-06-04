@@ -22,6 +22,7 @@ import slvr from "@/app/assets/silver-surfer.png";
 import serenity from "@/app/assets/serenity-resort.png";
 import zach from "@/app/assets/zach.png";
 import eclub from "@/app/assets/eclub.png";
+import lfb from "@/app/assets/lfb.png";
 
 const techstack = {
   languages: [
@@ -134,6 +135,26 @@ const techstack = {
   ],
   projects: [
     {
+      image: lfb,
+      title: "Lagos Fruit Basket",
+      description:
+        "This is a fully funtional and responsive ecommerce website for Lagos Fruit Basket that features full paystack payment integration along with a time based checkout system.",
+      liveLink: "https://serenity-resort.netlify.app/",
+      github: "https://github.com/TimiDev19/SKINNY",
+      tech: "React, TailwindCSS, Framer Motion, PayStack, NodeJS, ExpressJS, MongoDB",
+      category: "eCommerce",
+    },
+    {
+      image: eclub,
+      title: "Rotary eClub of Connected Minds",
+      description:
+        "This is a fully funtional and responsive website for a Rotary eClub that displays various information about them and helps to expand their visibility and influence.",
+      liveLink: "https://rotaryelcubofconnectedminds.netlify.app/",
+      github: "https://github.com/TimiDev19/SKINNY",
+      tech: "NextJs, TailwindCSS, Framer Motion",
+      category: "company portfolio",
+    },
+    {
       image: teekay,
       title: "Teekay Bags Store",
       description:
@@ -152,16 +173,6 @@ const techstack = {
       github: "https://github.com/TimiDev19/kanban",
       tech: "React, TypeScript, TailwindCSS, Redux",
       category: "management system",
-    },
-    {
-      image: eclub,
-      title: "Rotary eClub of Connected Minds",
-      description:
-        "This is a fully funtional and responsive website for a Rotary eClub that displays various information about them and helps to expand their visibility and influence.",
-      liveLink: "https://rotaryelcubofconnectedminds.netlify.app/",
-      github: "https://github.com/TimiDev19/SKINNY",
-      tech: "NextJs, TailwindCSS, Framer Motion",
-      category: "company portfolio",
     },
     {
       image: serenity,
