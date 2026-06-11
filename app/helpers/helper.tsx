@@ -139,7 +139,7 @@ const techstack = {
       title: "Lagos Fruit Basket",
       description:
         "This is a fully funtional and responsive ecommerce website for Lagos Fruit Basket that features full paystack payment integration along with a time based checkout system.",
-      liveLink: "https://serenity-resort.netlify.app/",
+      liveLink: "https://lagosfruitbasket.com",
       github: "https://github.com/TimiDev19/SKINNY",
       tech: "React, TailwindCSS, Framer Motion, PayStack, NodeJS, ExpressJS, MongoDB",
       category: "eCommerce",
